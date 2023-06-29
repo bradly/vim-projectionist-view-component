@@ -1,0 +1,10 @@
+{
+  "app/components/*.rb": {
+    "alternate": "app/components/{}.html.erb",
+    "type": "component"
+  },
+  "app/components/*.html.erb": {
+    "alternate": "app/components/{}.rb",
+    "type": "component_view"
+  }
+}
